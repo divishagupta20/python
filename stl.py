@@ -11,7 +11,11 @@ print(x)
 print(random.choice(["hj",1,"hft",True]))
 
 print(os.getcwd())
-#os.mkdir('testdir')
+
+os.mkdir('foldr')
+
+
+
 
 shutil.copyfile('source.txt','destination.txt')
 

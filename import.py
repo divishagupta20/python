@@ -1,5 +1,5 @@
 from math import*
-import numpy as np
+import nump as np
 from package.maths import *
 sqrt(9)
 pi
