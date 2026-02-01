@@ -28,16 +28,6 @@ print(string)
 d = json.loads(string)
 print(d)
 
-with open('example.csv',mode='w',newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(["hello","my","name","is","divisha"])
-    writer.writerow(['krishna',32])
-
-with open('example.csv',mode='r') as file:
-    reader = csv.reader(file)
-    for row in reader:
-        print(row)
-
 now = datetime.now()
 
 print(now)

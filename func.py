@@ -19,15 +19,7 @@ def detail(**kwargs): #keyword argument
 
 detail(name="divisha",age=9,para = 9)
 
-def strong(password):
-    if len(password)<8:
-        return False
-    if not any(char.isdigit() for char in password):
-        return False
-    if not any(char.islower() for char in password):
-        return false;
 
-    return True
 
 s = "madadem"
 i = 0
